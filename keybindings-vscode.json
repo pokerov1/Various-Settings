@@ -1,0 +1,7 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+    { "key": "alt+d",        "command": "deleteWordStartRight" },
+    { "key": "ctrl+delete",  "command": "deleteWordRight" },
+    { "key": "ctrl+shift+d", "command": "editor.action.copyLinesDownAction" },
+    { "key": "ctrl+d",       "command": "editor.action.deleteLines"}
+]
