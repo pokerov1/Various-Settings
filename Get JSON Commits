@@ -1,0 +1,5 @@
+This line connects to specific repository, user and its commits.
+After that grabs the response (JSON format) and shows SHA sum and committer name.
+
+curl https://api.github.com/repos/pokerov/DesignPatterns/commits | grep -C1 -A5 "\"commit\"" > commits
+
