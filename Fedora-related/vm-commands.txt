@@ -1,4 +1,5 @@
 Upgrade distribution after installing it
+Note: It may require reboot!
 
 sudo dnf upgrade
 
