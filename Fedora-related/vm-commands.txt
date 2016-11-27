@@ -1,0 +1,9 @@
+Upgrade distribution after installing it
+
+sudo dnf upgrade
+
+Install VirtualBox Guest Additions
+Note: Reboot required!
+
+sudo dnf install vim gcc kernel-devel-$(uname -r)
+
