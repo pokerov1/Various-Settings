@@ -1,0 +1,6 @@
+To create a FTP server from current directory use:
+
+python -m http.server 8000
+
+Note: This requires Python 3 and should be executed from directory you want to share at port 8000!
+
