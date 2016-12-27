@@ -1,0 +1,9 @@
+When having troubles connecting to some wireless network or broadband one, often latest releases of 
+NetworkManages crashes and cannot work properly with Qualcomm cards.
+
+To restart the NetworkManager service (on system running systemd):
+
+$ sudo systemctl restart NetworkManager.service
+
+Note: To view what is the status of this service replace 'restart' with 'status'.
+
