@@ -1,0 +1,19 @@
+Posted by Craig Barnes on StackOverflow.
+
+Since the default colurs found in 
+/usr/share/nano/*.nanorc are not complete use the 
+following procedure.
+
+git clone https://github.com/nanorc/nanorc.git
+cd nanorc
+make install
+
+Add these lines to ~/.nanorc:
+include ~/.nano/syntax/html.nanorc
+include ~/.nano/syntax/css.nanorc
+include ~/.nano/syntax/php.nanorc
+include ~/.nano/syntax/ALL.nanorc
+
+Note: This will be installed only for current 
+user. Root user will not benefit from these 
+commands.
