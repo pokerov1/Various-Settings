@@ -1,0 +1,6 @@
+In case these are not proper GUID use:
+
+powercfg -L
+
+Note: This will list all active profiles and custom ones.
+
