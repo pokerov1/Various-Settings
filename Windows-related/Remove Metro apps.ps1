@@ -1,0 +1,1 @@
+Get-AppXProvisionedPackage -online | Remove-AppxProvisionedPackage -online
