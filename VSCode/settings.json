@@ -1,6 +1,6 @@
 {
-    "window.zoomLevel": 1.5,
-    "editor.fontFamily": "'Droid Sans Mono', 'Meslo', monospace",
+    "window.zoomLevel": 0.5,
+    "editor.fontFamily": "'Droid Sans Mono', 'Meslo', 'Consolas', monospace",
     "editor.fontWeight": "normal",
     "editor.fontSize": 14,
     "editor.lineHeight": 0,
@@ -14,7 +14,7 @@
     "editor.autoClosingBrackets": true,
     "editor.cursorBlinking": "blink",
     "editor.mouseWheelZoom": true,
-    "editor.cursorStyle": "line",
+    "editor.cursorStyle": "block",
     "editor.trimAutoWhitespace": true,
     "editor.renderWhitespace": "all",
     "terminal.integrated.shell.linux": "/bin/zsh",
@@ -24,5 +24,11 @@
     "java.home": "/home/chris/.java/jdk1.8.0_112",
     "java.jdt.ls.vmargs": "-noverify -Xmx2G",
     "telemetry.enableTelemetry": false,
-    "telemetry.enableCrashReporter": false
-}
+    "telemetry.enableCrashReporter": false,
+    "zenMode.hideTabs": false,
+    "zenMode.hideStatusBar": false,
+    "zenMode.fullScreen": false,
+    "window.menuBarVisibility": "toggle",
+    "update.channel": "none",
+    "files.autoSave": "off"
+  }

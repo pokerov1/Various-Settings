@@ -1,0 +1,24 @@
+Integration between Visual Studio Code and Git:
+
+Configure it as core editor (usually Git defaults to Vim)
+  git config --global core.editor "code -w -n"
+After this is configured as primary editor you can edit Git settings using:
+  git config --global -e
+Configure it as default Diff/Merge tool:
+   [diff]
+  tool = code-difftool
+   [difftool "code-difftool"]
+  cmd = code -w -n --diff $LOCAL $REMOTE
+   
+You can even overwrite Git Diff behaviour using it, but be aware is not so convenient!
+
+  [diff]
+  external = code -w -r --diff $1 $2
+
+You can experiment with $LOCAL/$REMOTE/$BASE for file input.
+Also you can still use old behaviour invoking:
+
+  git diff --no-ext-diff # Show LESS diff
+  git diff --name-only # List changed file names
+
+For additional information use checkout git diff --help.
