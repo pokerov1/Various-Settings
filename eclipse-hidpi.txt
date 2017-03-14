@@ -1,0 +1,7 @@
+To enable Hi-DPI for SWT toolkit use:
+ -Dswt.autoScale=200
+
+This will make 200% zoom of the user interface and icons will be visible.
+Fonts will be scaled, too.
+
+This change should be applied to eclipse.ini file.
