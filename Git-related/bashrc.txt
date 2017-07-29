@@ -1,0 +1,15 @@
+alias ll='ls -l'
+alias l='ls -ltr'
+alias cls='tput reset'
+
+alias gp='git pull -p $@'
+alias gs='git status'
+alias gl='git log $@'
+alias ga='git add $@'
+alias gc='git commit -m $1'
+
+export M2_HOME='/opt/apache-maven-3.3.9'
+export GRADLE_HOME='/opt/gradle-3.4.1'
+export JAVA_HOME='/opt/jdk1.8.0_121'
+
+export PATH=$PATH:$M2_HOME/bin:$GRADLE_HOME/bin:$JAVA_HOME/bin:.
