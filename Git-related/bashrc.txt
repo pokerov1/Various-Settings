@@ -1,6 +1,17 @@
 alias ll='ls -l'
+alias ls='ls --color=auto'
 alias l='ls -ltr'
 alias cls='tput reset'
+alias df='df -h'
+alias egrep='egrep --colour=auto'
+alias fgrep='fgrep --colour=auto'
+alias free='free -m'
+alias grep='grep --colour=auto'
+alias more='less'
+
+alias net='sudo /home/chris/net'
+alias nmr='sudo systemctl restart NetworkManager'
+alias nms='sudo iw wlp2s0 scan'
 
 alias gp='git pull -p $@'
 alias gs='git status'
